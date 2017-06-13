@@ -1,0 +1,71 @@
+header{
+  border-bottom: 1px solid #ccc;
+}
+header p{ 
+  margin: 0;
+  text-transform: capitalize;
+}
+.content-row{
+  color:#fff;
+}
+
+.custom-col{
+  width: 10.7%;
+  
+}
+
+.custom-col::after{
+  background: lightgray;
+      bottom: -8px;
+      content: "";
+      display: inline-block;
+      height: 16px;
+      position: absolute;
+      right: 0;
+      width: 1px;
+}
+
+
+.day-width-1{
+  width: 21.3%;
+}
+.day-width-2{
+  width: 32.1%;
+}
+.day-width-3{
+  width: 42.8%;
+}
+.day-width-4{
+  width: 53.5%;
+}
+.day-width-5{
+  width: 64.2%;
+}
+.day-width-6{
+  width: 74.9%;
+}
+.day-width-7{
+  width: 85.6%;
+}
+
+.day-offset-1{
+  margin-left: 21.3%;
+}
+.day-offset-2{
+   margin-left: 32.1%;
+}
+.day-offset-3{
+   margin-left: 42.8%;
+}
+.day-offset-4{
+   margin-left: 53.5%;
+}
+.day-offset-5{
+   margin-left: 64.2%;
+}
+.day-offset-6{
+   margin-left: 74.9%;
+}
+.day-offset-7{
+   margin-left: 85.6%;
+}
